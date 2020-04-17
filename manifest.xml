@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin_manifest xmlns="http://www.elgg.org/plugin_manifest/1.8">
+
+    <name>Elgg Disable Upgrade Rewrite Test</name>
+    <id>elgg_disable_rewrite_test</id>
+    <description>Development plugin for disabling the self-rewrite test elgg makes when running an upgrade that fails on port-forwarded container systems</description>
+    <version type="dist">1.0.0</version>
+
+    <author>Matt Beckett (matt@mattbeckett.me)</author>
+    <website>http://mattbeckett.me</website>
+    <copyright>2020 (c) Matt Beckett</copyright>
+    <license>GNU Public License version 2</license>
+
+    <requires>
+        <type>elgg_release</type>
+        <version>3.0</version>
+    </requires>
+
+</plugin_manifest>
